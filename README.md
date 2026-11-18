@@ -19,9 +19,6 @@ Forecasting	Five models compete on a rolling-origin backtest; incomplete months 
 Business insights	Severity-ranked findings, each with evidence and a suggested next step
 Reporting	Interactive dashboard, CLI, JSON export and a standalone HTML report
 Optional LLM summary	Off by default; sends aggregated figures only, never row-level data
-Screenshots
-<p align="center"> <img src="docs/screenshots/sales.png" width="49%" alt="Sales analysis"> <img src="docs/screenshots/forecast.png" width="49%" alt="Forecast with backtest"> </p>
-Example results
 
 Run on the bundled dataset (3,633 order lines × 72 columns, about 1.5 seconds end to end):
 
@@ -55,7 +52,7 @@ Full design notes are in docs/architecture.md.
 
 Quick start
 bash
-git clone https://github.com/YOUR-USERNAME/multi-agent-data-analyst.git
+git clone https://github.com/jan2002-ui/multi-agent-data-analyst.git
 cd multi-agent-data-analyst
 
 python -m venv .venv
